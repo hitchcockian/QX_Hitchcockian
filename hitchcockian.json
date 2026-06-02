@@ -1,0 +1,35 @@
+{
+  "task": [
+    // ═══════════════════════════════════════════════════════════════
+    // 自动签到任务
+    // ═══════════════════════════════════════════════════════════════
+    "0 8 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东签到, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/JD.png, enabled=false",
+    "0 9 * * * https://raw.githubusercontent.com/dompling/Script/master/iqiyi/iqiyi_daily.js, tag=爱奇艺签到, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/iQIYI.png, enabled=true",
+    "0 9 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js, tag=B站签到, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/BiliBili.png, enabled=true",
+    "30 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/163music/163music.js, tag=网易云音乐签到, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/NetEaseMusic.png, enabled=true",
+    "0 10 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js, tag=美团签到, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Meituan.png, enabled=true",
+    "0 10 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/v2ex.js, tag=V2EX签到, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/V2EX.png, enabled=true",
+    "0 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js, tag=什么值得买签到, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/SMZDM.png, enabled=true",
+    // ═══════════════════════════════════════════════════════════════
+    // 云服务签到
+    // ═══════════════════════════════════════════════════════════════
+    "0 8 * * * https://raw.githubusercontent.com/dompling/Script/master/cloud189/cloud189.js, tag=天翼云签到, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Cloud189.png, enabled=false",
+    "0 8 * * * https://raw.githubusercontent.com/dompling/Script/master/aliyun/aliyun.js, tag=阿里云签到, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Aliyun.png, enabled=false",
+    // ═══════════════════════════════════════════════════════════════
+    // 京东自动任务 (需自行配置 Cookie，默认禁用)
+    // 使用说明: 在 BoxJS 或脚本中配置 JD Cookie 后启用
+    // ═══════════════════════════════════════════════════════════════
+    // 京东家庭号
+    "30 7 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东家庭号, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/JD.png, enabled=false",
+    // 京东农场
+    "0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东农场, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/JD.png, enabled=false",
+    // ═══════════════════════════════════════════════════════════════
+    // 通知与推送任务
+    // ═══════════════════════════════════════════════════════════════
+    "*/30 * * * * https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/streaming-ui-check.js, tag=流媒体解锁检测, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Streaming.png, enabled=false",
+    // ═══════════════════════════════════════════════════════════════
+    // 订阅转换与更新任务
+    // ═══════════════════════════════════════════════════════════════
+    "0 6 * * * https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/sub_store.js, tag=订阅存储, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/QuanX.png, enabled=false"
+  ]
+}
